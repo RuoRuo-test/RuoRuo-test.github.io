@@ -1,0 +1,26 @@
+.div1 {
+    text-align: left;
+    color: midnightblue;
+    margin: 20px;
+    padding: 20px;
+}
+.div2 {
+    background-color: darkcyan;
+    color: linen;
+    margin: 20px;
+    padding: 20px;
+  }
+
+.div3 {
+    background-color: darkslateblue;
+    color: cornsilk;
+    margin: 20px;
+    padding: 20px;
+}
+
+.div4 {
+    text-align: left;
+    color: blue;
+    margin: 20px;
+    padding: 20px;
+}
