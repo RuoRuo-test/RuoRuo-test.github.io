@@ -1,5 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px;
+    background-color: lightgoldenrodyellow;
+}
+* {
+    box-sizing: border-box;
+}
+/*Header*/
+.header {
+    padding: 30px;
+    text-align: center;
+    background: lightgray;
+}
+.column {
+    float: left;
+    padding:10px;
+}
+.column.sidenav {
+    overflow: hidden;
+    width: 25%;
+    padding-left: 25px;
+    display: inline-block
+}
+
+.column.middle {
+    overflow: hidden;
+    width: 75%;
+    padding-left: 15px;
+}
+.colum:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width:600px) {
+    .column.sidenav, .column.middle { width: 100%;}
+} 
+.footer {
+    padding: 30px;
+    text-align: center;
+    background: lightgray
+}
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkcyan;
+    font-weight: 700;
+    padding: 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap'); 
+img {
+    width: 25%;
+    margin: 1%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black  ; 
+    position:relative ;
+}
+#tom1 {
+visibility: inherit;
+margin: 15px;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    max-width: 88%;
+    min-width: 25%
+}
+#impact {
+    font-style: italic;
+    color: darkmagenta;
+}
+.bold {
+    font-weight: bold;
+}
 .div1 {
-    text-align: left;
+    text-align: justify;
     color: midnightblue;
     margin: 20px;
     padding: 20px;
@@ -9,6 +83,7 @@
     color: linen;
     margin: 20px;
     padding: 20px;
+    text-align: center;
   }
 
 .div3 {
